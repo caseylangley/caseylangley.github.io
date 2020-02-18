@@ -1,37 +1,75 @@
 body {
-background-color: red;
-}
-
-h1 {
-color: #FFF;
-font-size: 2em;
-padding-top: 100px;
-width: 100%;
-font-family: Georgia;
-text-align: center
-border: 3px soild black;
-}
-
-h2 {
-color: pink;
-font-size: 2em
-padding-top: 100px;
-width: 100%
-font-family: Georgia;
-text-align: center
-border: 3px soild black;
-}
-
-h3 {
-color: blue;
-font-size: 2em
-padding-top: 100px;
-width: 100%
-font-family: Georgia;
-text-align: center
-border: 3px soild black;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
 p {
-color: #FFA07A;
-font-size: 14px;}
+  line-height: 15px;   /* within paragraph */
+  margin-bottom: 12px; /* between paragraphs */
+  }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+p { font-size: 15px;
+	font: Bell MT;
+	li
+}
+h1 {
+	color: black; 
+	padding: 6px;
+	background-color: DeepPink;
+	font-size: 40px;
+
+}
+
+h2 {
+	color: BlanchedAlmond;
+	font-size: 35px;
+	line-height: 10px;
+}
+
+h3 {
+	color: BlanchedAlmond;
+	font-size: 30px;
+	line-height: 10px;
+}
+
+h4 {
+	color: BlanchedAlmond;
+	font-size: 30px;
+	line-height: 10px;
+}
+
+h5 {
+	color: BlanchedAlmond;
+	font-size: 20px;
+	line-height: 10px;
+}
+
+img {
+float: right;
+width: 200px;
+padding: 2px;
+margin-right: 5px;
+border-color: white;
+}
+
+#resumemenu ul{list-style-type: none;}
+#resumemenu a {text-decoration: none; padding: 5px;}
+#resumemenu li {display: inline; left-side;}
+#resumemenu a:link {color: DeepPink; background-color: white;}
+#resumemenu a:visited {color: DeepPink; background-color: white;}
+#resumemenu a:focus {color: white; background-color:  DeepPink;}
+#resumemenu a:hover {color: white; background-color:  DeepPink;}
+#resumemenu a:active {color: white; background-color:  DeepPink;}
